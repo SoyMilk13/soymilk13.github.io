@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width = device-width" />
+        <title>Unnamed Game One</title>
+        <link href="styles/main.css" rel="stylesheet" />
+        <link href="styles/root.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Vaani" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="titlePage" class="titlePageContainer">
+            <div class="title">
+                <h1 style="font-size: 40px;">Unnamed Game One</h1>
+            </div>
+            <div class="titlePageContent">
+                <div id="play">
+                    <input id="usernameInput" placeholder="Username" class="infoSetup" />
+                    <select id="gameModeSelect" placeholder="Select a Game Mode" style="height: 34px;" class="infoSetup">
+                        <option value="0">Story</option>
+                        <option value="1">Multiplayer</option>
+                    </select>
+                    <button id="playButton" class="playButton" onclick="setupUserInfo()">Play</button>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/startup.js"></script>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
