@@ -1,1 +1,5 @@
-
+:root {
+    --red: #ff0000; /* Main red */
+    --red1: #be0000; /* Border red */
+    --red2: #f00000; /* Hover red */
+}
